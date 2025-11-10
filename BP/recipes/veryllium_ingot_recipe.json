@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "progpack:veryllium_ingot_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:copper_ingot",
+				"count": 4
+			},
+			{
+				"item": "minecraft:prismarine_shard",
+				"count": 4
+			}
+		],
+		"result": {
+			"item": "progpack:veryllium_ingot"
+		}
+	}
+}

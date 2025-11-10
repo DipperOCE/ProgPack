@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"DipperOCE"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.52"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "ProgPack",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "8298944b-8b1f-4d4c-92a1-e48629019ff4",
+		"version": [
+			1,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "b5b218c2-f367-4eb8-bce1-ae8d75bcdd3f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

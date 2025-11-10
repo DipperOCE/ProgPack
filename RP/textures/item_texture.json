@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "ProgPack",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"progpack_veryllium_helmet": {
+			"textures": "textures/items/veryllium_helmet"
+		},
+		"progpack_veryllium_chestplate": {
+			"textures": "textures/items/veryllium_chestplate"
+		},
+		"progpack_veryllium_leggings": {
+			"textures": "textures/items/veryllium_leggings"
+		},
+		"progpack_veryllium_boots": {
+			"textures": "textures/items/veryllium_boots"
+		},
+		"progpack_veryllium_ingot": {
+			"textures": "textures/items/veryllium_ingot"
+		}
+	}
+}

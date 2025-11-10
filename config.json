@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "ProgPack",
+	"namespace": "progpack",
+	"authors": [
+		"DipperOCE"
+	],
+	"targetVersion": "1.12.120",
+	"description": "",
+	"experimentalGameplay": {
+		"upcomingCreatorFeatures": true,
+		"experimentalCreatorCameraFeatures": false,
+		"enableGameTestFramework": true,
+		"renderDragonFeatures": false,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "ProgPack"
+				}
+			]
+		]
+	}
+}

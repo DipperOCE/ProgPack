@@ -1,0 +1,68 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"DipperOCE"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.52"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "ProgPack",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "b2e28781-f794-4ba1-9792-7806fe5147b0",
+		"version": [
+			1,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "76628902-7890-4e3f-ae24-e9407244acf7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "main",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "9c617a35-774e-4437-8a5d-a62749f52ce3",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8298944b-8b1f-4d4c-92a1-e48629019ff4",
+			"version": [
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+	]
+}
